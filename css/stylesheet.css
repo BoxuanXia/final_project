@@ -1,0 +1,378 @@
+/* Embedded Fonts */
+
+body
+{
+background-color: hsl(29, 100%, 97%);
+opacity: 10%;
+}
+
+h1{
+font-family: 'Quicksand', sans-serif;
+font-size: 1.2em;
+
+}
+
+
+a,p,li{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 0.8em;
+
+}
+
+.container
+{
+width: 1000px;
+height: 2750px;
+
+}
+
+.logo
+{
+margin-left: 10px;
+margin-top: 17px; 
+position: absolute;
+width:120px;
+height:80px;
+background-image: url(../images/logo.png);
+background-repeat: no-repeat;
+background-size: 100%;
+z-index: 6;
+
+
+}
+
+#all
+{
+height:20px;
+width: 120px;
+position: absolute;
+top: 32px;
+left: 200px;	
+}
+
+#scale
+{
+height:20px;
+width: 120px;
+position: absolute;
+top: 32px;
+left: 273px;	
+}
+
+#Nendrodid
+{
+height:20px;
+width: 120px;
+position: absolute;
+top: 32px;
+left: 380px;	
+}
+
+#Hobby
+{
+height:20px;
+width: 120px;
+position: absolute;
+top: 32px;
+left: 480px;	
+}
+
+#search
+{
+height:20px;
+width: 120px;
+margin-top: 32px;
+margin-left: 90%;
+}
+
+#cart
+{
+height:30px;
+width: 30px;
+margin-top: -27px;
+margin-left: 96%;
+background-image: url(../images/cart.svg);
+background-repeat: no-repeat;
+background-size: 100%;
+z-index: 1;
+}
+
+#goodsmile{
+	width: 100%;
+	height: 100px;
+	color: white;
+	position: absolute;
+	text-align: center;
+	top:300px;
+	font-size: 6em;
+
+}
+
+#online_shop{
+	width: 100%;
+	height: 100px;
+	color: white;
+	position: absolute;
+	text-align: center;
+	top:450px;
+	font-size: 6em;
+
+
+}
+.heading{
+	height:68px;
+	position: absolute;
+	color: hsl(36, 100%, 60%);
+	font-size: 1.2em;
+	width:100%;
+}
+
+
+
+
+.headingImage
+{
+height: 100%;
+width:100%;
+position: absolute;
+top:70px;
+
+/*background-image: url(../images/cover.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+z-index: -1;*/
+
+background: url("../images/cover.jpg") no-repeat center fixed;
+	-webkit-background-size:cover;
+display: none;
+
+}
+
+
+.main{
+width: 100%;
+height: 100%;
+
+
+
+
+}
+
+
+.boundary1{
+height: 800px;
+width:900px;
+position: absolute;
+left: 50%;
+margin-left:-450px;
+margin-top: 1100px;
+background-image: url(../images/boundary.svg);
+background-repeat: no-repeat;
+
+}
+
+#img1{
+height:601px;
+width:450px;
+margin-top: -17px;
+margin-left: -21px;
+position: absolute;
+background-image: url(../images/1.png);
+background-position: center;
+background-repeat: no-repeat;
+opacity: 90%;
+background-size: 89%;
+}
+
+
+#img2{
+height:45%;
+width:45%;
+margin-top: 100px;
+margin-left: 511px;
+position: absolute;
+background-image: url(../images/2.png);
+background-position: center;
+background-repeat: no-repeat;
+opacity: 90%;
+background-size: 90%;
+
+}
+
+#item1{
+ height:300px;
+ width: 45%;
+ position: absolute;
+ margin-top: 30px;
+ margin-left: 460px;
+ font-size: 2em;
+ text-align: center;
+ color: hsl(36, 100%, 49%);
+
+}
+
+
+#item2{
+ height:300px;
+ width: 50%;
+ position: absolute;
+ margin-top: 480px;
+ margin-left: 420px;
+ font-size: 2em;
+ text-align: center;
+ color: hsl(36, 100%,49%);
+ text-decoration: none;
+}
+
+
+#item2:visited {  /* This gets rid of the purple color applied to links that were previously clicked on */
+	color: hsl(36, 100%,49%);
+}
+
+#item2:hover {  /* Simple hover state. You should know this by now */
+	color: grey;
+}
+
+#item2:active {  /* CSS style at the moment of a mouse press */
+	color: red;
+}
+
+.boundary2{
+height: 690px;
+width:657px;
+left: 50%;
+margin-left: -328.5px;
+position: absolute;
+margin-top: 1700px;
+background-image: url(../images/boundary1.svg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100%;
+
+}
+
+#img3{
+height:350px;
+width:260px;
+margin-top: 267px;
+margin-left: 3px;
+position: absolute;
+background-image: url(../images/3.png);
+background-position: center;
+background-repeat: no-repeat;
+opacity: 90%;
+background-size: 100%;
+}
+
+
+
+#img4{
+height:505px;
+width:342px;
+margin-top: 20px;
+margin-left: 342px;
+position: absolute;
+background-image: url(../images/4.png);
+background-position: center;
+background-repeat: no-repeat;
+opacity: 90%;
+background-size: 83%;
+
+}
+
+
+#item3{
+ height:300px;
+ width: 50%;
+ position: absolute;
+ margin-top: 150px;
+ margin-left: 15px;
+ font-size: 2.4em;
+ text-align: center;
+ color: hsl(36, 100%, 49%);
+
+}
+
+
+#item4{
+ height:300px;
+ width: 50%;
+ position: absolute;
+ margin-top: 490px;
+ margin-left: 300px;
+ font-size: 1.5em;
+ text-align: center;
+ color: hsl(36, 100%, 49%);
+ text-decoration: none;
+}
+
+
+#item4:visited {  /* This gets rid of the purple color applied to links that were previously clicked on */
+	color: hsl(36, 100%,49%);
+}
+
+#item4:hover {  /* Simple hover state. You should know this by now */
+	color: grey;
+}
+
+#item4:active {  /* CSS style at the moment of a mouse press */
+	color: red;
+}
+
+
+.bar{
+height:60px;
+width:100%;
+margin-top: 2400px;
+position: absolute;
+background-color: hsl(24, 100%, 70%);
+background-position: center;
+background-repeat: no-repeat;
+opacity: 90%;
+background-size: 83%;
+
+}
+
+
+.info1{
+margin-top: 2500px;
+margin-left: 20px;
+height: 60px;
+width: 200px;
+position: absolute;
+color: grey;
+
+}
+
+.info2{
+margin-top: 2500px;
+margin-left: 300px;
+height: 60px;
+width: 200px;
+position: absolute;
+color: grey;
+
+}
+
+.info3{
+margin-top: 2500px;
+margin-left: 550px;
+height: 60px;
+width: 200px;
+position: absolute;
+color: grey;
+
+}
+
+.info4{
+margin-top: 2505px;
+margin-left: 800px;
+height: 60px;
+width: 380px;
+position: absolute;
+color: grey;
+font-size: 0.8em;
+
+}
+
+
